@@ -1,0 +1,211 @@
+/*
+Theme Name: Legenda Child
+Theme URI: http://8theme.com/
+Author: 8theme
+Author URI: http://themeforest.net/user/8theme
+Description: Legenda Child Theme
+Template: legenda
+Version: 3.3
+Text Domain:  legenda-child
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+@import url("../legenda/style.css")
+@import url("http://fonts.googleapis.com/earlyaccess/notosansKr.css");
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+
+body, h1, h2, h3, h4, h5, h6, li, p, #nav ul li a, #topbar, input, button, select, textarea, a, .wf-container > *, .widget-title, .dwqa-container, #wpmem_reg, #wpmem_login { 
+   font-family: 'Noto Sans KR', sans-serif,'Nanum Gothic', 나눔고딕 !important; 
+   font-style: medium !important;
+   } 
+}
+
+.bc-type-variant2 {
+	display:none;
+}
+
+.order_delivery_top {display:inline-block;width:100%;border-top:2px solid #333;background:#f7f7f7;border-bottom:1px solid #dedede; font-size:14px !important;}
+.order_delivery_top dt{display:inline-block;width:25%;float:left;box-sizing:border-box;padding:17px 0 16px 15px;color:#000;font-weight:700;}
+.order_delivery_top dd{display:inline-block;width:70%;float:left;box-sizing:border-box;padding:17px 0 16px 15px;font-weight:normal;}
+
+.order_delivery_mid ul{display:inline-block;width:100%;background:#fcfcfc;border-bottom:1px solid #dedede;padding:10px 0; font-size:14px !important;}
+.order_delivery_mid ul li{padding:10px 0;display:inline-block;width:100%;min-height:20px;clear:both;}
+.order_delivery_mid ul li dt{display:inline-block;width:25%;height:20px;line-height:20px;box-sizing:border-box;padding-left:15px;float:left;color:#7a7a7a;font-weight:700;}
+.order_delivery_mid ul li dd{display:inline-block;width:70%;min-height:20px;line-height:20px;box-sizing:border-box;padding-left:15px;float:left;color:#7a7a7a;font-weight:normal;}
+.order_delivery_mid ul li dd p {color:#4e6ccd}
+
+.order_delivery_input input[type="radio"] input[type=checkbox] {
+    margin-left:0px;
+	border:none !important
+}
+
+/* checkbox */
+/* button wrap */
+.btn_wrap {zoom:1;margin:10px 0 10px 0;text-align:center;}
+.btn_wrap:after{display:block;clear:both;content:'';}
+.btn_wrap a{margin:0 2px;text-decoration:none}
+.btn_wrap .btn {margin-right:2px;}/* 버튼 사이 간격 */
+/* button case */
+.alignC {text-align:center;}
+element.style {
+    width: 75px;
+}
+.red {
+    background: #ea332e;
+}
+.tablecss .button {
+    display: inline-block;
+    height: 28px;
+	width:75px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 3px;
+    text-indent: 0;
+}
+.buttonW {
+    display: inline-block;
+    height: 26px;
+	width:73px;
+    line-height: 26px;
+    font-size: 14px;
+    color: #838383;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 3px;
+    text-indent: 0;
+}
+.radius{
+    border-radius: 3px;
+}
+.boxshadow{
+    box-shadow: 0 0 0 1px #838383;
+}
+
+.bc-type-variant2 {
+display:none;
+}
+
+
+/*---------------------------------------------------------------*/
+/* Contact Form 7
+/*---------------------------------------------------------------*/
+
+.wpcf7 textarea {
+  width: 100%;
+}
+.wpcf7 input {
+
+}
+
+.wpcf7 .postadd {
+  width: 70%;
+}
+
+.wpcf7 input[type="submit"] {
+  width: auto;
+}
+.chat-form-heading {
+  padding-right: 10px !important;
+}
+
+.wpcf7-list-item {
+display: block;
+}
+
+
+.wpcf7 label {
+line-height: 26px !important;
+margin-bottom: 15px;
+margin-top: 20px;
+border-bottom: 1px solid #dedede;
+}
+
+.wpcf7-form {
+margin-left: 25px;
+margin-right: 25px;
+margin-top: 25px;
+}
+
+/*---------------------------------------------------------------*/
+/* woo upload field
+/*---------------------------------------------------------------*/
+
+.wcuf_product_title_under_upload_field_name{
+ font-size:12px !important;
+}
+
+
+/*---------------------------------------------------------------*/
+/* 가이드페이지 모바일 css
+/*---------------------------------------------------------------*/
+@media (max-width: 480px) { 
+
+.guide_ima01, .guide_ima02, .guide_ima03 {
+width:50%;
+}
+
+.guide_step_01, .guide_step_03, .guide_step_04, .guide_step_05, .guide_step_06, .guide_step_07{
+  width:50px;
+  height:49px;
+}
+
+.guid_step_02{
+  width:80px;
+  height:79px;
+}
+
+.guide_step_t01, .guide_step_t02, .guide_step_t03, .guide_step_t04, .guide_step_t06, .guide_step_t07{
+  line-height:14px;
+}
+.guide_step_t05{
+  letter-spacing:-0.1em !important;
+  line-height:14px;
+}
+}
+
+/*---------------------------------------------------------------*/
+/* 약관 타이틀
+/*---------------------------------------------------------------*/
+.vc_tta-title-text{
+ font-size:12px !important;
+ font-weight:700;
+}
+
+
+.woocommerce-checkout-review-order-table .order-total .includes_tax span.amount{
+display:none !importnat;
+}
+
+.includes_tax span.amount{
+display:none !importnat;
+}
+
+
+.woocommerce-checkout-review-order-table .cart-discount td {
+    text-align: right;
+}
+
+
+.woocommerce .blockUI.blockOverlay:before,.woocommerce .loader:before {
+height: 120px;
+width: 330px;
+position: fixed;
+top: 50%;
+left: 50%;
+margin-left:-165px;
+margin-top:-60px;
+display: block;
+content: "";
+-webkit-animation: none;
+-moz-animation: none;
+animation: none;
+background: url('//m-yeun.co.kr/wordpress/wp-content/uploads/2017/08/preloader2.gif') center center;
+background-size: cover;
+line-height: 1;
+text-align: center;
+font-size: 2em;
+}
